@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.centre{
+    display: block;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+.left{
+    float: left;
+    display: inline-block;
+}
+.right{
+    float: right;
+    display: inline-block;
+}
+
+
+header{
+    height: 90px;
+}
+#logo{
+    height: 80px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+header a:link, header a:visited{
+    color: brown;
+    text-decoration: none;
+}
+#menubar{
+    height: 60px;
+    float: right;
+    margin-right: 5px;
+}
+.menu{
+    height: 20px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 35px 20px 35px 20px;
+    text-align: center;
+    margin-right: -5px;
+}
+#home{
+    color: mintcream;
+    background: brown;
+    font-weight: bold;
+    opacity: 100%;
+}
+#home:hover{
+    opacity: 90%;
+}
+#unreal:hover{
+    opacity: 75%;
+    background: black;
+    color: mintcream;
+}
+#amazon:hover{
+    opacity: 75%;
+    background: purple;
+    color: mintcream;
+}
+#cry:hover{
+    opacity: 75%;
+    background: gray;
+    color: mintcream;
+}
+#unity:hover{
+    opacity: 75%;
+    background: black;
+    color: mintcream;
+}
+
+
+#colosseum{
+    margin: 0;
+    object-fit: cover;
+    height: 570px;
+    background-image: url("../Assets/colosseum.jpg");
+    padding-top: 100px;
+}
+#colorect{
+    float: inside;
+    height: 150px;
+    padding-top: 115px;
+    font: 120px BattleLines;
+    text-align: center;
+    color: mintcream;
+}
+
+
+#introduction{
+    background: url("../Assets/intro.jpg");
+    height: 800px;
+    color: mintcream;
+}
+.subheading{
+    float: left;
+    height: 150px;
+    font: 120px BattleLines;
+    text-align: left;
+}
+.content{
+    float: left;
+    height: 150px;
+    font: 28px "Road Rage";
+    text-align: left;
+}
+.content a:link, .content a:visited{
+    color: mintcream;
+    text-decoration: none;
+}
+@keyframes contentheadanim {
+    0%{color: goldenrod}
+    50%{color: silver}
+    100%{color: goldenrod}
+}
+.contentface{
+    animation-name: contentheadanim;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+#gameengines{
+    background: url("../Assets/gaen.jpg");
+    height: 800px;
+    color: mintcream;
+}
+
+
+#foot{
+    height: 500px;
+}
+#foothead{
+    width: 100%;
+    color: black;
+    font: 80px Bungee;
+    text-align: center;
+}
+#footcontent{
+    font: 30px Bungee;
+}
+footer a:link, footer a:visited{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+#laavart{
+    float: left;
+    text-align: left;
+}
+#manisha{
+    float: right;
+    text-align: right;
+}
+.members{
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
